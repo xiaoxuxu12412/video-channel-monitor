@@ -1,0 +1,128 @@
+{
+  "m01": {
+    "status": "missed",
+    "time": "00:53",
+    "latest_video_time": "2026-07-22 17:08",
+    "source": "auto_detect"
+  },
+  "m02": {
+    "status": "missed",
+    "time": "00:53",
+    "latest_video_time": "2026-07-17 21:32",
+    "source": "auto_detect"
+  },
+  "m03": {
+    "status": "missed",
+    "time": "00:53",
+    "latest_video_time": "2026-07-24 16:50",
+    "source": "auto_detect"
+  },
+  "m04": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-20 15:29",
+    "source": "auto_detect"
+  },
+  "m05": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-22 20:43",
+    "source": "auto_detect"
+  },
+  "m06": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-26 17:29",
+    "source": "auto_detect"
+  },
+  "m07": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-22 16:46",
+    "source": "auto_detect"
+  },
+  "m08": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-24 21:53",
+    "source": "auto_detect"
+  },
+  "m09": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-26 15:46",
+    "source": "auto_detect"
+  },
+  "m10": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-25 18:24",
+    "source": "auto_detect"
+  },
+  "m11": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-21 20:06",
+    "source": "auto_detect"
+  },
+  "m12": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-27 22:59",
+    "source": "auto_detect"
+  },
+  "m13": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-22 15:27",
+    "source": "auto_detect"
+  },
+  "m14": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-24 17:03",
+    "source": "auto_detect"
+  },
+  "m15": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-27 21:42",
+    "source": "auto_detect"
+  },
+  "m16": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-11 09:50",
+    "source": "auto_detect"
+  },
+  "m17": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-27 21:42",
+    "source": "auto_detect"
+  },
+  "m18": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-07 20:40",
+    "source": "auto_detect"
+  },
+  "m19": {
+    "status": "missed",
+    "time": "00:54",
+    "latest_video_time": "2026-07-17 20:31",
+    "source": "auto_detect"
+  },
+  "m20": {
+    "status": "missed",
+    "time": "00:55",
+    "latest_video_time": "2026-07-25 09:55",
+    "source": "auto_detect"
+  },
+  "m21": {
+    "status": "missed",
+    "time": "00:55",
+    "latest_video_time": "2026-07-01 14:37",
+    "source": "auto_detect"
+  }
+}
