@@ -1,0 +1,71 @@
+# 视频号发布自动检测 - GitHub Actions
+# 每天 21:00 (北京时间) 自动检测全团队视频号发布情况
+# 也可手动触发 (workflow_dispatch)
+
+name: 视频号每日检测
+
+on:
+  # 定时触发: 每天 13:00 UTC = 21:00 北京时间
+  schedule:
+    - cron: '0 13 * * *'
+  # 手动触发
+  workflow_dispatch:
+
+# 同一时间只允许一个实例运行
+concurrency:
+  group: daily-detect
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 设置 Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      # 3. 从模板创建 API 配置文件 (真实 Key 通过环境变量注入)
+      - name: Create api config from template
+        run: cp config/api_config.example.json config/api_config.json
+
+      # 4. 运行自动检测 (auto_detect.py 内部会自动同步看板 + 生成月度统计)
+      - name: Run auto detection
+        run: python scripts/auto_detect.py
+
+      # 5. 生成日报
+      - name: Generate daily report
+        run: python scripts/generate_report.py
+
+      # 6. 复制 dashboard.html 到 index.html (供 GitHub Pages 使用)
+      - name: Copy dashboard to index.html
+        run: |
+          if [ -f dashboard.html ]; then
+            cp dashboard.html index.html
+            echo "dashboard.html -> index.html copied"
+          else
+            echo "WARNING: dashboard.html not found"
+          fi
+
+      # 7. 提交结果到仓库 (不提交 api_config.json，已被 .gitignore 排除)
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: $(date -u -d '+8 hours' '+%Y-%m-%d') video channel detection"
+            git push
+          fi
