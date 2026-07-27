@@ -1,0 +1,8 @@
+# 统一使用 LF 换行符 (GitHub Actions 运行在 Linux)
+* text=auto eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
