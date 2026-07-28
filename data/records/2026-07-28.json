@@ -18,10 +18,10 @@
     "source": "auto_detect"
   },
   "m04": {
-    "status": "pending",
-    "time": "22:18",
-    "error": "The read operation timed out",
-    "source": "auto_detect"
+    "status": "missed",
+    "time": "22:30",
+    "latest_video_time": "2026-07-20 15:29",
+    "source": "auto_detect_retry"
   },
   "m05": {
     "status": "missed",
