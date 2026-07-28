@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub Actions 设置指南 - 视频号检测系统</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f0f2f5;color:#333;line-height:1.8;padding:20px}
+.guide{max-width:780px;margin:0 auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
+.header{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:28px 24px}
+.header h1{font-size:24px;font-weight:700}
+.header .meta{font-size:14px;opacity:0.85;margin-top:8px}
+.body{padding:24px}
+.step{margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid #f0f0f0}
+.step:last-child{border-bottom:none}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background:#667eea;color:#fff;border-radius:50%;font-weight:700;font-size:16px;margin-right:10px;vertical-align:middle}
+.step h2{display:inline;font-size:18px;font-weight:700;vertical-align:middle}
+.step .desc{margin-top:10px;color:#555;font-size:14px}
+.step .cmd{background:#1e1e1e;color:#d4d4d4;padding:12px 16px;border-radius:8px;font-family:"Consolas","Monaco",monospace;font-size:13px;margin:10px 0;overflow-x:auto;white-space:pre}
+.step .tip{background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:10px 14px;font-size:13px;color:#ad6800;margin:10px 0}
+.step .tip strong{color:#d48806}
+.step .ok{background:#f6ffed;border:1px solid #b7eb8f;border-radius:8px;padding:10px 14px;font-size:13px;color:#389e0d;margin:10px 0}
+.url{color:#667eea;text-decoration:none;font-weight:600}
+.url:hover{text-decoration:underline}
+img{max-width:100%;border-radius:8px;margin:10px 0}
+.footer{text-align:center;padding:16px;color:#999;font-size:12px;border-top:1px solid #f0f0f0}
+.highlight{background:#e6f7ff;padding:2px 6px;border-radius:4px;font-weight:600;color:#1890ff}
+</style>
+</head>
+<body>
+<div class="guide">
+  <div class="header">
+    <h1>GitHub Actions 设置指南</h1>
+    <div class="meta">视频号发布自动检测系统 | 完全免费 | 每天自动运行</div>
+  </div>
+  <div class="body">
+
+    <div class="step">
+      <span class="step-num">1</span><h2>注册 GitHub 账号</h2>
+      <div class="desc">
+        <p>打开 <a href="https://github.com/signup" target="_blank" class="url">https://github.com/signup</a> 注册账号（免费）：</p>
+        <p>&nbsp;&nbsp;- 邮箱：用你的 QQ 邮箱 <span class="highlight">3117528621@qq.com</span> 即可<br>
+        &nbsp;&nbsp;- 用户名：随便取，英文即可（记住它，后面要用）<br>
+        &nbsp;&nbsp;- 密码：自己设一个</p>
+        <div class="tip"><strong>注意：</strong>注册后 GitHub 会发验证邮件到你的邮箱，记得去点确认链接。</div>
+        <div class="ok">注册完成后，把你的 <strong>GitHub 用户名</strong> 告诉我，我帮你把代码推上去。</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">2</span><h2>创建新仓库</h2>
+      <div class="desc">
+        <p>登录 GitHub 后，点击右上角 <strong>+</strong> 号 → <strong>New repository</strong>：</p>
+        <p>&nbsp;&nbsp;- Repository name: <span class="highlight">video-channel-monitor</span>（或你喜欢的名字）<br>
+        &nbsp;&nbsp;- Description: 视频号发布自动检测系统<br>
+        &nbsp;&nbsp;- 选 <strong>Public</strong>（公开仓库 GitHub Actions 免费无限用）<br>
+        &nbsp;&nbsp;- 不要勾选 "Add a README file" 等选项<br>
+        &nbsp;&nbsp;- 点击 <strong>Create repository</strong></p>
+        <div class="tip"><strong>为什么选 Public？</strong>公开仓库 GitHub Actions 不限时、GitHub Pages 免费。仓库里只有视频号发布状态数据，不含敏感信息。API Key 通过 Secrets 安全注入，不会泄露。</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">3</span><h2>推送代码到仓库</h2>
+      <div class="desc">
+        <p>创建完仓库后，GitHub 会显示一个页面。把仓库地址（类似下面这个格式）告诉我：</p>
+        <div class="cmd">https://github.com/你的用户名/video-channel-monitor.git</div>
+        <div class="ok">我会帮你执行 git 推送命令，把所有代码和历史数据上传到 GitHub。</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">4</span><h2>配置 API Key（Secrets）</h2>
+      <div class="desc">
+        <p>代码推送完成后，在 GitHub 仓库页面：</p>
+        <p>&nbsp;&nbsp;1. 点击 <strong>Settings</strong>（仓库设置）<br>
+        &nbsp;&nbsp;2. 左侧菜单找到 <strong>Secrets and variables</strong> → <strong>Actions</strong><br>
+        &nbsp;&nbsp;3. 点击 <strong>New repository secret</strong><br>
+        &nbsp;&nbsp;4. 填写：<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Name: <span class="highlight">TIKHUB_API_KEY</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Secret: （我会把你的 API Key 发给你，复制粘贴进去）<br>
+        &nbsp;&nbsp;5. 点击 <strong>Add secret</strong></p>
+        <div class="tip"><strong>安全说明：</strong>Secrets 加密存储，只有 Actions 运行时才能读取，任何人都看不到明文。</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">5</span><h2>开启 GitHub Pages（在线看板）</h2>
+      <div class="desc">
+        <p>在同一个 Settings 页面：</p>
+        <p>&nbsp;&nbsp;1. 左侧菜单找到 <strong>Pages</strong><br>
+        &nbsp;&nbsp;2. Source 选择 <strong>Deploy from a branch</strong><br>
+        &nbsp;&nbsp;3. Branch 选择 <strong>main</strong> / <strong>root</strong><br>
+        &nbsp;&nbsp;4. 点击 <strong>Save</strong></p>
+        <div class="ok">等待 1-2 分钟后，你的看板就会上线：<br>
+        <strong>https://你的用户名.github.io/video-channel-monitor/</strong></p>
+        <p>之后每天 21:00 自动检测后，看板数据会自动更新。</p></div>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="step-num">6</span><h2>手动测试一次（可选）</h2>
+      <div class="desc">
+        <p>所有配置完成后，可以手动触发一次测试：</p>
+        <p>&nbsp;&nbsp;1. 在仓库页面点击 <strong>Actions</strong> 标签<br>
+        &nbsp;&nbsp;2. 左侧选择 <strong>视频号每日检测</strong><br>
+        &nbsp;&nbsp;3. 点击右侧 <strong>Run workflow</strong> → <strong>Run workflow</strong><br>
+        &nbsp;&nbsp;4. 等待几分钟，点进去看运行日志，确认检测成功</p>
+        <div class="ok">如果看到绿色对勾 ✓，说明一切正常！之后每天 21:00 自动运行。</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer">视频号发布自动检测系统 | GitHub Actions 免费方案 | 2026-07-27</div>
+</div>
+</body>
+</html>
