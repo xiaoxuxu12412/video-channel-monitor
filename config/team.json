@@ -4,7 +4,7 @@
   "members": [
     {
       "id": "m01",
-      "name": "徐先生",
+      "name": "徐望龙",
       "channel_name": "番禺买房找徐先生",
       "finder_username": "v2_060000231003b20faec8c6eb8f1dcad0cd04e935b077f718412cad2e48caaa7a34adaaf2a929@finder",
       "share_url": "",
@@ -12,7 +12,7 @@
     },
     {
       "id": "m02",
-      "name": "大辉",
+      "name": "卢文辉",
       "channel_name": "广州房侦探大辉",
       "finder_username": "v2_060000231003b20faec8c5eb8e1dcbd3cd06ed31b077970da5e7d3a11e5dd048f251848e3dd5@finder",
       "share_url": "",
@@ -20,7 +20,7 @@
     },
     {
       "id": "m03",
-      "name": "阿涛",
+      "name": "席涛",
       "channel_name": "番禺买房找阿涛",
       "finder_username": "v2_060000231003b20faec8c6e78811c0d5ce06ef36b077fa2fb0aa90330f40f399e6c10f22564c@finder",
       "share_url": "",
@@ -28,7 +28,7 @@
     },
     {
       "id": "m04",
-      "name": "方华",
+      "name": "卢方华",
       "channel_name": "楼-方华",
       "finder_username": "v2_060000231003b20faec8c5e1881bc0d5cc06ee3db077df14137edc58099e289962e947105b3c@finder",
       "share_url": "",
@@ -36,7 +36,7 @@
     },
     {
       "id": "m05",
-      "name": "百事通",
+      "name": "黄建",
       "channel_name": "番禺广场房产百事通",
       "finder_username": "v2_060000231003b20faec8c4eb881ec3d0c900ed35b0775f4ef1adf91d3941b00ebeb092937f1d@finder",
       "share_url": "",
@@ -44,7 +44,7 @@
     },
     {
       "id": "m06",
-      "name": "小余",
+      "name": "余树娣",
       "channel_name": "小余看房啦",
       "finder_username": "v2_060000231003b20faec8c4e48f1dc5d7cd07ef3cb07704c8ffa55763698a7059112f1108516a@finder",
       "share_url": "",
@@ -52,7 +52,7 @@
     },
     {
       "id": "m07",
-      "name": "先锋",
+      "name": "陈增雄",
       "channel_name": "番禺探房先锋",
       "finder_username": "v2_060000231003b20faec8c4e7801fc1d6cb0dea3db077e863ddb9abe06145997d73d6e7263969@finder",
       "share_url": "",
@@ -60,7 +60,7 @@
     },
     {
       "id": "m08",
-      "name": "黄先森",
+      "name": "黄利",
       "channel_name": "番禺找房黄先森",
       "finder_username": "v2_060000231003b20faec8c7e68d1cc0d0cc04e834b077e6a73946839bd29a2dbe16a6cb08e7cc@finder",
       "share_url": "",
@@ -68,15 +68,15 @@
     },
     {
       "id": "m09",
-      "name": "景选",
+      "name": "孔景铖",
       "channel_name": "景选好房",
       "finder_username": "v2_060000231003b20faec8c7e78b18c4d1cf04ec35b0776fba9c738256b722c637c9590a25ce00@finder",
       "share_url": "",
-      "note": "已通过搜索API验证"
+      "note": "已��过搜索API验证"
     },
     {
       "id": "m10",
-      "name": "阿锋",
+      "name": "范朝锋",
       "channel_name": "贝壳乐远-阿锋",
       "finder_username": "v2_060000231003b20faec8c4e28c1fc5d6cb03e532b0774fd77fb544e7de4b9bea9542d07ef36a@finder",
       "share_url": "",
@@ -84,15 +84,15 @@
     },
     {
       "id": "m11",
-      "name": "阿雨",
+      "name": "孙传雨",
       "channel_name": "阿雨看个好房",
       "finder_username": "v2_060000231003b20faec8c7e68f1fc0d0cb01e834b077e3b7eb1b3946b2c3cf35aefef4db1c87@finder",
       "share_url": "",
-      "note": "已通过搜索API验证"
+      "note": "���通过搜索API验证"
     },
     {
       "id": "m12",
-      "name": "小林",
+      "name": "林梓霖",
       "channel_name": "小林卖房记",
       "finder_username": "v2_060000231003b20faec8c4eb891dc6d4ca02e536b0773503e76f2f587efeda70981eb42d0f29@finder",
       "share_url": "",
@@ -100,7 +100,7 @@
     },
     {
       "id": "m13",
-      "name": "小杨",
+      "name": "杨凌霄",
       "channel_name": "A小杨同学看房",
       "finder_username": "v2_060000231003b20faec8c4eb8f1bc1d7c707ef32b077b986d57c8efe4335cd6476a74a80e82d@finder",
       "share_url": "",
@@ -108,7 +108,7 @@
     },
     {
       "id": "m14",
-      "name": "小黄",
+      "name": "黄斌",
       "channel_name": "广州探房小黄哥",
       "finder_username": "v2_060000231003b20faec8c6e48b1dc7d6ca03e43cb077f0ea54eb37996c74f3c663c80fd74680@finder",
       "share_url": "",
@@ -116,7 +116,7 @@
     },
     {
       "id": "m15",
-      "name": "阿敏",
+      "name": "丁佳敏",
       "channel_name": "卖房子的啊啊敏",
       "finder_username": "v2_060000231003b20faec8cae38e19cad3cd0deb30b077fc629af15d90c4f7b66154f4bd34d619@finder",
       "share_url": "",
@@ -124,7 +124,7 @@
     },
     {
       "id": "m16",
-      "name": "阿柱",
+      "name": "陈柱华",
       "channel_name": "柱你买好房",
       "finder_username": "v2_060000231003b20faec8c4e68111c6ddc906ed36b0772b8ce8e299f77085ed6173fec9590cb4@finder",
       "share_url": "",
@@ -132,7 +132,7 @@
     },
     {
       "id": "m17",
-      "name": "常乐",
+      "name": "战静宇",
       "channel_name": "o知足常乐o",
       "finder_username": "v2_060000231003b20faec8c7e08e1fc5d1ca06e833b077fde397e52b1cf03c51048e474f57327f@finder",
       "share_url": "",
@@ -140,7 +140,7 @@
     },
     {
       "id": "m18",
-      "name": "小陈",
+      "name": "陈海",
       "channel_name": "小陈选房aaaaa",
       "finder_username": "v2_060000231003b20faec8c5ea8d1ac2d4ca02eb34b0770e90a98d8a350b3a1380395d49832c79@finder",
       "share_url": "",
@@ -148,7 +148,7 @@
     },
     {
       "id": "m19",
-      "name": "笋房",
+      "name": "梁发熙",
       "channel_name": "Gz广州笋房分享日记",
       "finder_username": "v2_060000231003b20faec8c7e18a11c1d2ce0ce834b077411198516b167a6690a1e7f8c8e6fdf7@finder",
       "share_url": "",
@@ -156,7 +156,7 @@
     },
     {
       "id": "m20",
-      "name": "Karvan",
+      "name": "赖嘉文",
       "channel_name": "粵探粵有房Karvan",
       "finder_username": "v2_060000231003b20faec8c6e5801dc2d6cf07ee31b077126e6d1011638a6476d834c8f5fab5b8@finder",
       "share_url": "",
@@ -164,7 +164,7 @@
     },
     {
       "id": "m21",
-      "name": "道理",
+      "name": "李靖",
       "channel_name": "看房讲道理",
       "finder_username": "v2_060000231003b20faec8c4e08a1ecaddcf05ec3db077f7d2d609b250781b89e613e2f561038f@finder",
       "share_url": "",
