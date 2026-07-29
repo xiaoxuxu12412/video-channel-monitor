@@ -1,0 +1,148 @@
+{
+  "m01": {
+    "status": "published",
+    "time": "21:28",
+    "video_count": 1,
+    "video_titles": [],
+    "source": "auto_detect"
+  },
+  "m02": {
+    "status": "missed",
+    "time": "21:28",
+    "latest_video_time": "2026-07-17 21:32",
+    "source": "auto_detect"
+  },
+  "m03": {
+    "status": "missed",
+    "time": "21:28",
+    "latest_video_time": "2026-07-24 16:50",
+    "source": "auto_detect"
+  },
+  "m04": {
+    "status": "published",
+    "time": "21:28",
+    "video_count": 1,
+    "video_titles": [
+      "番禺广场地铁附近置业，08年小区车位足#番禺广场#次新小区#三号线#低密度#番禺哪里买房划算#刚需置"
+    ],
+    "source": "auto_detect"
+  },
+  "m05": {
+    "status": "missed",
+    "time": "21:28",
+    "latest_video_time": "2026-07-22 20:43",
+    "source": "auto_detect"
+  },
+  "m06": {
+    "status": "published",
+    "time": "21:28",
+    "video_count": 1,
+    "video_titles": [
+      "番禺广场新出电梯小高层，房东不想管理了，要换大别墅🏠，近地铁，周边配套好#今日优质房源实景拍摄 #同"
+    ],
+    "source": "auto_detect"
+  },
+  "m07": {
+    "status": "missed",
+    "time": "21:28",
+    "latest_video_time": "2026-07-28 18:13",
+    "source": "auto_detect"
+  },
+  "m08": {
+    "status": "missed",
+    "time": "21:29",
+    "latest_video_time": "2026-07-24 21:53",
+    "source": "auto_detect"
+  },
+  "m09": {
+    "status": "missed",
+    "time": "21:29",
+    "latest_video_time": "2026-07-26 15:46",
+    "source": "auto_detect"
+  },
+  "m10": {
+    "status": "missed",
+    "time": "21:29",
+    "latest_video_time": "2026-07-25 18:24",
+    "source": "auto_detect"
+  },
+  "m11": {
+    "status": "published",
+    "time": "21:29",
+    "video_count": 2,
+    "video_titles": [
+      "3号线地铁口小户型#带你看房 #小户型#地铁口#广州3号线#番禺广场二手房 #番禺买房#广州买房",
+      "万博和臻，97四房户型#万博新房#万博和臻#番禺买房#广州买房 #广州新房"
+    ],
+    "source": "auto_detect"
+  },
+  "m12": {
+    "status": "published",
+    "time": "21:29",
+    "video_count": 1,
+    "video_titles": [
+      "电梯四房带车位！买菜坐车都方便\n最近帮朋友留意房子，发现东雅园这套真的适合咱过日子的人！136平四室"
+    ],
+    "source": "auto_detect"
+  },
+  "m13": {
+    "status": "missed",
+    "time": "21:29",
+    "latest_video_time": "2026-07-22 15:27",
+    "source": "auto_detect"
+  },
+  "m14": {
+    "status": "missed",
+    "time": "21:29",
+    "latest_video_time": "2026-07-24 17:03",
+    "source": "auto_detect"
+  },
+  "m15": {
+    "status": "published",
+    "time": "21:29",
+    "video_count": 1,
+    "video_titles": [
+      "喜欢私家院子，想找装修好的房子，那就快来看吧！番禺广场的南向4房，首付30万就可以拥有！#番禺买房 "
+    ],
+    "source": "auto_detect"
+  },
+  "m16": {
+    "status": "missed",
+    "time": "21:30",
+    "latest_video_time": "2026-07-11 09:50",
+    "source": "auto_detect"
+  },
+  "m17": {
+    "status": "pending",
+    "time": "21:30",
+    "error": "Remote end closed connection without response",
+    "source": "auto_detect"
+  },
+  "m18": {
+    "status": "missed",
+    "time": "21:30",
+    "latest_video_time": "2026-07-07 20:40",
+    "source": "auto_detect"
+  },
+  "m19": {
+    "status": "missed",
+    "time": "21:30",
+    "latest_video_time": "2026-07-17 20:31",
+    "source": "auto_detect"
+  },
+  "m20": {
+    "status": "published",
+    "time": "21:30",
+    "video_count": 1,
+    "video_titles": [
+      "四开间看江景，三代同堂好户型#南天名苑#番禺买房#广州买房#番禺大平层#番禺新房#番禺江景房"
+    ],
+    "source": "auto_detect"
+  },
+  "m21": {
+    "status": "missed",
+    "time": "21:30",
+    "latest_video_time": "2026-07-01 14:37",
+    "source": "auto_detect"
+  }
+}
