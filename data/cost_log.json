@@ -1,14 +1,8 @@
 {
-  "requests": 1354,
-  "estimated_cost": 1.354,
+  "requests": 1355,
+  "estimated_cost": 1.355,
   "budget": 5.0,
   "entries": [
-    {
-      "time": "2026-07-25 22:44:16",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
     {
       "time": "2026-07-25 22:44:18",
       "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
@@ -3000,6 +2994,12 @@
     {
       "time": "2026-07-29 21:30:27",
       "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-07-29 22:42:07",
+      "endpoint": "/api/v1/wechat_search/v2/fetch_search",
       "description": "POST",
       "cost": 0.001
     }

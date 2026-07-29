@@ -169,6 +169,30 @@
       "finder_username": "v2_060000231003b20faec8c4e08a1ecaddcf05ec3db077f7d2d609b250781b89e613e2f561038f@finder",
       "share_url": "",
       "note": "已通过搜索API验证"
+    },
+    {
+      "id": "m22",
+      "name": "廖伟",
+      "channel_name": "阿伟讲房020",
+      "finder_username": "v2_060000231003b20faec8c4ea8810cbd7c602eb30b0776622a70e95da60c131aa4b339de55816@finder",
+      "share_url": "",
+      "note": "已通过搜索API验证"
+    },
+    {
+      "id": "m23",
+      "name": "张婷婷",
+      "channel_name": "跟我买房万事如意",
+      "finder_username": "v2_060000231003b20faec8c4e38010cad4ca04e83db0777fd77da3d8011c834599797caa59cf1c@finder",
+      "share_url": "",
+      "note": "已通过搜索API验证"
+    },
+    {
+      "id": "m24",
+      "name": "蒲柯贝",
+      "channel_name": "积极向上卖房小蒲",
+      "finder_username": "v2_060000231003b20faec8c4e18b11cad5cb0ce530b077de9c92d3a14a3c6d066e94adbd089fb4@finder",
+      "share_url": "",
+      "note": "已通过搜索API验证"
     }
   ],
   "settings": {
