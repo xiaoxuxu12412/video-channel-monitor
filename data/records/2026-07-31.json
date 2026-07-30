@@ -1,0 +1,150 @@
+{
+  "m01": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-30 23:00",
+    "source": "auto_detect"
+  },
+  "m02": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-17 21:32",
+    "source": "auto_detect"
+  },
+  "m03": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-24 16:50",
+    "source": "auto_detect"
+  },
+  "m04": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-30 17:05",
+    "source": "auto_detect"
+  },
+  "m05": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-30 15:27",
+    "source": "auto_detect"
+  },
+  "m06": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-30 20:47",
+    "source": "auto_detect"
+  },
+  "m07": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-28 18:13",
+    "source": "auto_detect"
+  },
+  "m08": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-24 21:53",
+    "source": "auto_detect"
+  },
+  "m09": {
+    "status": "missed",
+    "time": "02:02",
+    "latest_video_time": "2026-07-30 17:23",
+    "source": "auto_detect"
+  },
+  "m10": {
+    "status": "published",
+    "time": "02:02",
+    "video_count": 2,
+    "video_titles": [
+      "东怡新区｜123平三房两卫 电梯平层入户 近番禺广场地铁口 配套齐全 带十平的入户花园 采光没话说 ",
+      "东怡新区｜刚需上车 近地铁三号线 户型方正 电梯三房两卫 装修保养好 拎包入住 周围配套齐全 低总价"
+    ],
+    "source": "auto_detect"
+  },
+  "m11": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-30 21:27",
+    "source": "auto_detect"
+  },
+  "m12": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-29 09:06",
+    "source": "auto_detect"
+  },
+  "m13": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-22 15:27",
+    "source": "auto_detect"
+  },
+  "m14": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-30 17:16",
+    "source": "auto_detect"
+  },
+  "m15": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-30 20:19",
+    "source": "auto_detect"
+  },
+  "m16": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-11 09:50",
+    "source": "auto_detect"
+  },
+  "m17": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-30 14:50",
+    "source": "auto_detect"
+  },
+  "m18": {
+    "status": "missed",
+    "time": "02:03",
+    "latest_video_time": "2026-07-07 20:40",
+    "source": "auto_detect"
+  },
+  "m19": {
+    "status": "missed",
+    "time": "02:04",
+    "latest_video_time": "2026-07-17 20:31",
+    "source": "auto_detect"
+  },
+  "m20": {
+    "status": "missed",
+    "time": "02:04",
+    "latest_video_time": "2026-07-29 01:39",
+    "source": "auto_detect"
+  },
+  "m21": {
+    "status": "missed",
+    "time": "02:04",
+    "latest_video_time": "2026-07-01 14:37",
+    "source": "auto_detect"
+  },
+  "m22": {
+    "status": "missed",
+    "time": "02:04",
+    "latest_video_time": "2026-07-30 10:02",
+    "source": "auto_detect"
+  },
+  "m23": {
+    "status": "missed",
+    "time": "02:04",
+    "latest_video_time": "2026-07-26 11:28",
+    "source": "auto_detect"
+  },
+  "m24": {
+    "status": "missed",
+    "time": "02:04",
+    "latest_video_time": "2026-07-24 00:20",
+    "source": "auto_detect"
+  }
+}
