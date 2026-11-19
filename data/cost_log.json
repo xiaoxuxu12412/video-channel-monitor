@@ -1,296 +1,8 @@
 {
-  "requests": 6731,
-  "estimated_cost": 6.731,
+  "requests": 6779,
+  "estimated_cost": 6.779,
   "budget": 5.0,
   "entries": [
-    {
-      "time": "2026-11-09 02:15:15",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:16",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:17",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:18",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:19",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:20",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:21",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:23",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:24",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:25",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:26",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:27",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:28",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:30",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:31",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:32",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:33",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:34",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:35",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-09 02:15:36",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:31",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:32",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:33",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:34",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:35",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:37",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:38",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:39",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:40",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:41",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:42",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:43",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:44",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:45",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:46",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:47",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:49",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:50",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:51",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:52",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:53",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:54",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:55",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:56",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:56",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:57",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:54:59",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
-    {
-      "time": "2026-11-10 06:55:00",
-      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
-      "description": "POST",
-      "cost": 0.001
-    },
     {
       "time": "2026-11-10 06:55:01",
       "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
@@ -2999,6 +2711,294 @@
     },
     {
       "time": "2026-11-19 05:10:04",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:16",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:18",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:19",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:20",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:21",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:22",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:23",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:24",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:26",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:27",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:28",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:29",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:30",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:31",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:32",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:33",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:34",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:36",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:37",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:38",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:39",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:40",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:41",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:42",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:42",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:44",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:45",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:46",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:47",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:48",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:49",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:50",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:51",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:52",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:54",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:55",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:56",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:57",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:58",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:13:59",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:00",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:01",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:02",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:04",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:05",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:06",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:07",
+      "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
+      "description": "POST",
+      "cost": 0.001
+    },
+    {
+      "time": "2026-11-20 05:14:08",
       "endpoint": "/api/v1/wechat_channels/v2/fetch_user_videos",
       "description": "POST",
       "cost": 0.001
